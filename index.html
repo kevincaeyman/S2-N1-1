@@ -3,58 +3,55 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./sass/custom.css">
-</head>
-    <title>S2-N1-1</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>S2-N1-E1</title>
+    <link rel="stylesheet" href="./sass/custome.css">
 </head>
 <body>
     <div class="container">
         <div class="row">
-            <div class="col-12 col-lg-12 mb-5 mt-4">
-                <nav class="navbar navbar-expand-lg">
-                    <div class="container">
-                      <a class="navbar-brand" href="#">
-                        <img src="./Images/logo-bookmark.svg" alt="bookmark_logo">
-                      </a>
-                      <div class="collapse navbar-collapse me
-" id="navbarSupportedContent">
-                        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
-                          <li class="nav-item">
-                            <a class="nav-link active pe-5" aria-current="page" href="#">FEATURES</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active pe-5" aria-current="page" href="#">PRICING</a>
-                          </li>
-                          <li class="nav-item">
-                            <a class="nav-link active pe-5" aria-current="page" href="#">CONTACT</a>
-                          </li>
-                          <button type="button" class="btn btn-danger">LOGIN</button>
-                        </ul>
+            <div class="col-12 col-lg-12">
+                <nav class="navbar navbar-expand-lg mt-3 mb-5">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="#">
+                            <img src="./Images/logo-bookmark.svg" alt="bookmark_logo">
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                          </button>
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" href="#">FEATURES</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="#">PRICING</a>
+                                  </li>
+                                  <li class="nav-item">
+                                    <a class="nav-link" href="#">CONTACT</a>
+                                  </li>
+                                <li class="nav-item">
+                                    <button type="button" class="btn btn-danger">LOGIN</button>
+                                </li>
+                            </ul>
+                        </div>
                     </div>
                 </nav>
             </div>
         </div>
-        <div class="row">
-            <div class="col-lg-6 mt-5">
-                <h1 class="fw-bold">A Simple Bookmark <br>Manager</h1>
-                <h6 class="fw-lighter mb-4">
-                    A clean and simple interface to organize your favorite websites. <br> Open a new browser tab and see your sites load instantly. <br> Try it for free.
-                </h6>
-                <button type="button" class="btn btn-secondary me-md-2 shadow rounded">
-                    Get it on Chrome
-                </button>
-                <button type="button" class="btn btn-light shadow rounded">
-                    Get it on Firefox
-                </button>
+        <div class="row flex-column-reverse flex-lg-row">
+            <div class="col-md-6 mt-5">
+                <h1 class="fw-bolder">A Simple Bookmark Manager</h1>
+                <p class="fw-lighter">A clean and simple interface to organize your favorite websites. <br> Open a new browser tab and see your sites load instantly. <br> Try it for free. <p>
+                <button type="button" class="btn btn-primary shadow rounded">Get it on Chrome</button>
+                <button type="button" class="btn btn-light shadow rounded">Get it on Firefow</button>
             </div>
-            <div class="col-lg-6 mt-5">   
-                <div class="mt-5 square h-75 bg-secondary rounded-start-pill">
-                <img  style="max-width:80%" src="./Images/illustration-hero.svg" alt="window">
-                </div>
+            <div class="col-md-6 mt-5 square rounded-start-pill bg-primary">
+                <img class="img-fluid vh-50 me-4" src="./Images/illustration-hero.svg" alt="hero">
             </div>
+         
         </div>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
 </body>
 </html>
+
